@@ -18,3 +18,13 @@ puts rate_my_food("Sushi")
 puts rate_my_food("Burritos")
 puts rate_my_food("Quesadillas")
 puts rate_my_food("Yogurt")
+
+grade = "F"
+
+did_i_pass = case grade
+  when "A" then "Hell yeah!"
+  when "D" then "Don't tell your mother."
+  else "'YOU SHALL NOT PASS!' -Gandalf"
+end
+
+puts did_i_pass

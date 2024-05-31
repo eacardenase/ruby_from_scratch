@@ -9,3 +9,7 @@ if username == "eacardenase" && password == "topsecret"
 else
   puts "Incorrect, no access for you!"
 end
+
+p nil && 'foo' # => nil
+puts 3 && 'foo' # => 'foo'
+puts 'foo' && 3 # => 3
