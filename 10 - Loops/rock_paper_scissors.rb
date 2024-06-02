@@ -1,3 +1,6 @@
+# redo -> restarts the loop without evaluating the condition
+# retry -> restarts the loop evaluating the condition
+
 def print_in_new_lines(text)
   puts "\n" + text + "\n\n"
 end
